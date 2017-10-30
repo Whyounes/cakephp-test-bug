@@ -1,0 +1,62 @@
+# Package managers
+vendor
+composer.phar
+/node_modules/
+assets/bower/*
+
+# IntelliJ
+.idea
+*.ipr
+*.iws
+
+
+# Logs
+logs/*
+!.gitkeep
+
+# Netbeans
+nbproject
+.nbproject
+.nbproject/*
+nbproject/*
+nbproject/private/
+nbbuild/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Mac OSX
+.DS_Store
+# Thumbnails
+._*
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# SublimeText project files
+/*.sublime-project
+*.sublime-workspace
+
+# Vagrant
+.vagrant
+.vagrant/*
+
+.env
+
+public/dist/css/*.css
+public/dist/js/*.js
+
+# Ignore all generated images, but keep the folder
+public/static/image/*
+!public/static/image/.gitkeep
+
+sqlite_temp.db
+sqlite_temp.db-journal
+
+/config/ansible/hosts
+/config/ansible/vars.yml
+/config/ansible/main.retry
+/config/ansible/keys/*
+!/config/ansible/keys/.gitkeep
+/config/ansible/roles/main/defaults/vars.yml
+/npm-debug.log
